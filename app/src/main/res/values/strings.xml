@@ -1,0 +1,144 @@
+<resources>
+    <string name="app_name">Recipe Project</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="mainTitle">Recipes</string>
+    <string name="mainTagLine">~Mitchel Millsaps~</string>
+    <string name="action_settings">Settings</string>
+
+
+    <string name="action_add_favourite">Add to Favourites</string>
+    <string name="action_play_next">Play Next</string>
+    <string name="backdrop_title">LOVE MUSIC</string>
+    <string name="backdrop_subtitle">This season top 20 albums</string>
+
+    <string-array name="breakfast_name">
+        <item>"Banana Bread"</item>
+        <item>"Chef Baked Eggs"</item>
+        <item>"Fluffy Pancakes"</item>
+        <item>"Sausage Balls"</item>
+        <item>"Sausage Egg Casserole"</item>
+        <item>"Tomatoes &amp; Bacon Egg"</item>
+    </string-array>
+    <string-array name="breakfast_author_name">
+        <item>"By Awais"</item>
+        <item>"By Danish"</item>
+        <item>"By Ali"</item>
+        <item>"By Safdar"</item>
+        <item>"By Amjad"</item>
+        <item>"By Danish"</item>
+    </string-array>
+
+
+    <string-array name="breakfast_time">
+        <item>"30 mins"</item>
+        <item>"6 h"</item>
+        <item>"19 h"</item>
+        <item>"23 h"</item>
+        <item>"2 days"</item>
+        <item>"1 week"</item>
+    </string-array>
+
+    <string-array name="breakfast_fav">
+        <item>"5"</item>
+        <item>"0"</item>
+        <item>"50"</item>
+        <item>"30"</item>
+        <item>"16"</item>
+        <item>"9"</item>
+    </string-array>
+    <string-array name="ingredition">
+        <item>"5"</item>
+        <item>"0"</item>
+        <item>"50"</item>
+        <item>"30"</item>
+        <item>"16"</item>
+        <item>"9"</item>
+    </string-array>
+
+
+    <string-array name="breakfast_description">
+
+        <item>"Set out all your ingredients.
+Set a stove element with a pan to medium heat.
+Combine the 4 dry ingredients (flour, sugar, baking powder -- two Tablespoons, not two Teaspoons as some have suggested, salt) in a bowl.
+Add the soy milk and vegetable oil to your mixture.
+Mix until smooth.
+Now the pan should be ready for your batter, so spoon one pancakes' worth of the mixture into the pan.
+Flip [carefully] when you see bubbles in the middle of the pancake, or if the edges are looking stiffened.
+Repeat until the batter is gone, and try not to eat them all while you're cooking them."
+        </item>
+
+        <item>"Cut up apple (with or without skin - your choice) into bite sized chunks.
+Put the chopped apple into a container with a lid (ex. an empty margarine container).
+Sprinkle on the cinnamon, put the lid on the container, and gently shake so cinnamon covers apple.
+Eat and enjoy immediately."
+        </item>
+
+        <item>"Preheat oven to 350 degrees.
+Grease and flour two 9 x 5-inch loaf pans.
+Combine flour, cinnamon, baking soda and salt in large bowl.
+Combine sugar, pumpkin, eggs, vegetable oil and apple juice in large mixer bowl; beat until just blended.
+Add pumpkin mixture to flour mixture; stir just until moistened.
+Fold in apples.
+Spoon batter into prepared loaf pans.
+Bake for 65 to 70 minutes or until wooden pick inserted in center comes out clean.
+Cool in pans on wire racks for 10 minutes; remove to wire racks to cool completely.
+To make using three 8 X 4-inch loaf pans: Prepare as above and bake for 60 to 65 minutes.
+To make using five or six 5 X 3-inch mini-loaf pans: Prepare as above and bake for 55 to 60 minutes."
+        </item>
+
+        <item>"Mix all the ingredients together until thoroughly blended (it is best to use your hands or an electric mixer).
+Form into about 4 dozen 1 to 1 1/2 inch balls and place on a cookie sheet or broiler pan.
+Bake at 375°F for about 25 minutes.
+Once they are cool, they can be sorted into individual zip bags and frozen for a grab-and-go breakfast.
+NOTE: for Scotch Eggs, mold a bit of the raw meat mixture around a peeled hard-boiled egg (or eggs) and bake at 350°F for 30 minutes."</item>
+
+        <item>"Preheat oven according to directions on crescent roll package.
+Unroll but leave intact 2 triangles of crescent rolls.
+Pinch seam together and cut lengthwise into 5 strips and then cross-wise to make 10 strips.
+Roll each strip around one sausage and place in baking pan that has been sprayed with non-stick cooking oil.
+Sprinkle each pig with parmesan and garlic salt.
+Bake according to crescent roll package directions."</item>
+
+        <item>"Beat egg until fluffy.
+Add milk and melted margarine.
+Add dry ingredients and mix well.
+Heat a heavy griddle or fry pan which is greased with a little butter on a paper towel.
+The pan is hot enough when a drop of water breaks into several smaller balls which 'dance' around the pan.
+Pour a small amount of batter (approx 1/4 cup) into pan and tip to spread out or spread with spoon.
+When bubbles appear on surface and begin to break, turn over and cook the other side."
+        </item>
+
+        <item>"Mix the dry items first.
+Combine the eggs and melted butter to the milk and slowly stir into the flour mixture.
+Let sit at least 10 minutes while heating the pan.
+These will be high, but light and fluffy -- ."</item>
+
+        <item>"In a large mixing bowl, whisk together all dry ingredients.
+Separate the eggs, adding the yolks to the dry ingredient mixture, and placing the whites in a small mixing bowl.
+Beat whites until moderately stiff; set aside.
+Add milk and melted butter to dry ingredient mixture and blend.
+Fold stiff egg whites into mixture.
+Ladle mixture into hot waffle iron and bake."</item>
+
+        <item>"Sift the dry ingredients together in a large bowl.
+Separate the eggs.
+In small bowl, beat egg whites until stiff.
+Mix together the egg yolks, milk and oil and stir slightly.
+Add to dry ingredients and mix well.
+Fold in beaten egg whites.
+Cook in waffle iron."</item>
+
+        <item>"Combine all ingredients (use less pepper if you don't want a spicy taste) and blend well.
+If time permits, refrigerate overnight to let the meat absorb the flavor of the spices.
+Form into patties and cook as needed, freezing leftovers.
+Don't overcook or they will dry out--remove from the heat as soon as they're no longer pink inside, but still juicy. (if you prefer a moister texture, you add a splash of olive oil or an egg to the mixture just prior to cooking)."
+        </item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

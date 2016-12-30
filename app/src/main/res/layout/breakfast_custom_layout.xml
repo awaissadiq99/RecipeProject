@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/cardviewbreakfast"
+        android:background="@drawable/drink"
+        app:cardCornerRadius="15dp"
+
+        >
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="170dp"
+            android:background="#ffffff"
+            android:padding="1dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/applebtes"
+                android:id="@+id/breakfastimageView"
+                android:scaleType="fitXY"
+                />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#000000"
+                android:alpha="0.6"
+                android:layout_marginTop="5dp"
+
+
+                >
+                <TextView
+                    android:text="Omglette"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/breakfastDishName"
+                    android:textColor="#ffffff"
+                    android:textStyle="bold"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="10dp"
+                    android:shadowDx="10"
+                    android:shadowDy="10"
+                    android:shadowRadius="10"
+                    android:shadowColor="#000000"
+                    android:fontFamily="sans-serif-condensed"
+                        />
+
+                <TextView
+                    android:text="By Awais"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/breakfastDishAuthor"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_below="@id/breakfastDishName"
+
+                    android:shadowColor="#000000"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="125dp"
+                >
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    app:srcCompat="@drawable/favred"
+                    android:layout_marginLeft="10dp"
+                    android:id="@+id/breakfastfavicon" />
+
+                <TextView
+                    android:text="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/breakfastfavtextview"
+                    android:textColor="#ffffff"
+                    android:textSize="12dp"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:srcCompat="@drawable/ic_explore_black_24dp"
+                    android:layout_marginLeft="80dp"
+                    android:id="@+id/breakfasttimeicon" />
+
+                <TextView
+                    android:text="2h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/breakfastTimetextview"
+                    android:textSize="12dp"
+                    android:textColor="#ffffff"/>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

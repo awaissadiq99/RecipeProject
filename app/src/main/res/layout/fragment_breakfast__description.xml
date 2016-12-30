@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pw.megaviral.recipeproject.Dish_Description"
+    android:background="@android:color/holo_red_light">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="2dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/applebtes"
+                android:id="@+id/imageViewBreakfastCookingDescriotion"
+                android:scaleX="1.0"
+                android:scaleType="fitXY"
+                android:scaleY="1.5"
+
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:padding="5dp"
+                android:layout_marginLeft="10dp">
+
+                <TextView
+                    android:text="DISh Name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewbreakfastDishName"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:shadowDy="4.0"
+                    android:shadowColor="#000000"
+                    android:shadowDx="4.0"
+                    android:shadowRadius="4"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:text="Dish Cetorgry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textViewbreakfastDishNameCetorgry"
+                    android:layout_weight="1"
+                    android:shadowDy="2.0"
+                    android:shadowColor="#000000"
+                    android:shadowDx="2.0"
+                    android:textStyle="bold"
+                    android:shadowRadius="2"
+                    android:textColor="#ffffff"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+>
+                <TextView android:id="@+id/textViewBreakfastCookingDescriptionHadline"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="#800000"
+                    android:shadowColor="#ffffff"
+                    android:text="Description"
+                    android:shadowRadius="2"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    />
+
+                <TextView
+                    android:text="TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:fontFamily="sans-serif"
+                    android:textSize="16dp"
+                    android:textColor="#f0f0f0"
+                    android:id="@+id/textViewBreakfastCookingDescription" />
+            </LinearLayout>
+        </ScrollView>
+
+
+    </LinearLayout>
+</FrameLayout>
